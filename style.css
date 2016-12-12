@@ -1,0 +1,61 @@
+/*
+Theme Name: ManelTheme
+Theme URI: http://wordpress.org/themes/ManelTheme
+Author: thegreatmanel
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+#header{height:500px;
+    background-color:#5642DA; 
+    background-image:url("http://sergimateo.com/wp-content/2012/08/fotos-panoramicas-12.jpg") ;
+    background-size:100% 100%;
+    
+    
+    
+}
+#sidebar{float:right;
+ width:20%;
+ margin-top:20px;
+ height:400px;
+ display: inline-block;
+ margin-right:2.5%;
+}
+
+#content{
+ padding:0 7.5% 0 7.5% !important;
+ margin-left:10%;
+ display:inline-block;
+ min-height: 420px;
+ text-align:justify;
+ background-color: rgb(255,255,255);
+ width:50%;
+}
+
+
+body{margin:0;}
+.menu-menu-del-dia-container{width: 100%; height: 30px;
+    background-color: #5C2DC9; text-align: center;
+}
+.menu-menu-del-dia-container li{float: left; width: 25%; font-size: 24px; text-align:center; }
+.menu-menu-del-dia-container ul{list-style-type: none;padding: 0; margin: 0; float: left; width: 100%;}
+.menu-menu-del-dia-container li a{color: #10C6F8}
+a{text-decoration: none;}
+footer{background-color: #10C6F8; height: 150px; width: 80%; margin: auto;
+    display:table
+}
+
+footer .col{display:table-cell;
+ vertical-align:middle;
+ padding:10px;
+ width:33%;
+ text-align:center;}
+ #header h1 {margin:0; text-align: center; color:#10C6F8; font-size: 200px; background-color: rgba(0,0,0,0.5); font-family: monospace;}
+*{font-family: sans-serif;}
